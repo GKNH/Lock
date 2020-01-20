@@ -20,6 +20,7 @@
 		0464835023D3EC7B0007AA8A /* OSUnfairLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464834F23D3EC7B0007AA8A /* OSUnfairLockDemo.m */; };
 		0464835323D400BF0007AA8A /* MutexDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464835223D400BF0007AA8A /* MutexDemo.m */; };
 		0464835623D62A2F0007AA8A /* MutexDemo2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464835523D62A2F0007AA8A /* MutexDemo2.m */; };
+		0464835923D643680007AA8A /* MutexDemo3.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464835823D643680007AA8A /* MutexDemo3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,8 @@
 		0464835223D400BF0007AA8A /* MutexDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutexDemo.m; sourceTree = "<group>"; };
 		0464835423D62A2F0007AA8A /* MutexDemo2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutexDemo2.h; sourceTree = "<group>"; };
 		0464835523D62A2F0007AA8A /* MutexDemo2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutexDemo2.m; sourceTree = "<group>"; };
+		0464835723D643680007AA8A /* MutexDemo3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutexDemo3.h; sourceTree = "<group>"; };
+		0464835823D643680007AA8A /* MutexDemo3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutexDemo3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				0464835223D400BF0007AA8A /* MutexDemo.m */,
 				0464835423D62A2F0007AA8A /* MutexDemo2.h */,
 				0464835523D62A2F0007AA8A /* MutexDemo2.m */,
+				0464835723D643680007AA8A /* MutexDemo3.h */,
+				0464835823D643680007AA8A /* MutexDemo3.m */,
 			);
 			path = Locks;
 			sourceTree = "<group>";
@@ -185,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0464833323D3E43E0007AA8A /* ViewController.m in Sources */,
+				0464835923D643680007AA8A /* MutexDemo3.m in Sources */,
 				0464832D23D3E43E0007AA8A /* AppDelegate.m in Sources */,
 				0464835323D400BF0007AA8A /* MutexDemo.m in Sources */,
 				0464835023D3EC7B0007AA8A /* OSUnfairLockDemo.m in Sources */,

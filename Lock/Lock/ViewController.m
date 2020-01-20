@@ -13,6 +13,7 @@
 #import "OSUnfairLockDemo.h"
 #import "MutexDemo.h"
 #import "MutexDemo2.h"
+#import "MutexDemo3.h"
 
 @interface ViewController ()
 @property (nonatomic, strong) SBaseDemo *demo;
@@ -23,7 +24,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    SBaseDemo *demo = [[MutexDemo2 alloc] init];
+    SBaseDemo *demo = [[MutexDemo3 alloc] init];
     [demo otherTest];
 //    [self.demo moneyTest];
     
