@@ -21,6 +21,9 @@
 		0464835323D400BF0007AA8A /* MutexDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464835223D400BF0007AA8A /* MutexDemo.m */; };
 		0464835623D62A2F0007AA8A /* MutexDemo2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464835523D62A2F0007AA8A /* MutexDemo2.m */; };
 		0464835923D643680007AA8A /* MutexDemo3.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464835823D643680007AA8A /* MutexDemo3.m */; };
+		0464835C23D7D8990007AA8A /* MutexDemo4.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464835B23D7D8990007AA8A /* MutexDemo4.m */; };
+		0464835F23D8019D0007AA8A /* NSLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464835E23D8019D0007AA8A /* NSLockDemo.m */; };
+		0464836223D85AEF0007AA8A /* NSConditionDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464836123D85AEF0007AA8A /* NSConditionDemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +53,12 @@
 		0464835523D62A2F0007AA8A /* MutexDemo2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutexDemo2.m; sourceTree = "<group>"; };
 		0464835723D643680007AA8A /* MutexDemo3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutexDemo3.h; sourceTree = "<group>"; };
 		0464835823D643680007AA8A /* MutexDemo3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutexDemo3.m; sourceTree = "<group>"; };
+		0464835A23D7D8990007AA8A /* MutexDemo4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutexDemo4.h; sourceTree = "<group>"; };
+		0464835B23D7D8990007AA8A /* MutexDemo4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutexDemo4.m; sourceTree = "<group>"; };
+		0464835D23D8019D0007AA8A /* NSLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSLockDemo.h; sourceTree = "<group>"; };
+		0464835E23D8019D0007AA8A /* NSLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSLockDemo.m; sourceTree = "<group>"; };
+		0464836023D85AEF0007AA8A /* NSConditionDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSConditionDemo.h; sourceTree = "<group>"; };
+		0464836123D85AEF0007AA8A /* NSConditionDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSConditionDemo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +124,12 @@
 				0464835523D62A2F0007AA8A /* MutexDemo2.m */,
 				0464835723D643680007AA8A /* MutexDemo3.h */,
 				0464835823D643680007AA8A /* MutexDemo3.m */,
+				0464835A23D7D8990007AA8A /* MutexDemo4.h */,
+				0464835B23D7D8990007AA8A /* MutexDemo4.m */,
+				0464835D23D8019D0007AA8A /* NSLockDemo.h */,
+				0464835E23D8019D0007AA8A /* NSLockDemo.m */,
+				0464836023D85AEF0007AA8A /* NSConditionDemo.h */,
+				0464836123D85AEF0007AA8A /* NSConditionDemo.m */,
 			);
 			path = Locks;
 			sourceTree = "<group>";
@@ -189,6 +204,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0464835F23D8019D0007AA8A /* NSLockDemo.m in Sources */,
+				0464836223D85AEF0007AA8A /* NSConditionDemo.m in Sources */,
 				0464833323D3E43E0007AA8A /* ViewController.m in Sources */,
 				0464835923D643680007AA8A /* MutexDemo3.m in Sources */,
 				0464832D23D3E43E0007AA8A /* AppDelegate.m in Sources */,
@@ -196,6 +213,7 @@
 				0464835023D3EC7B0007AA8A /* OSUnfairLockDemo.m in Sources */,
 				0464833E23D3E4400007AA8A /* main.m in Sources */,
 				0464833023D3E43E0007AA8A /* SceneDelegate.m in Sources */,
+				0464835C23D7D8990007AA8A /* MutexDemo4.m in Sources */,
 				0464834723D3EAE70007AA8A /* SBaseDemo.m in Sources */,
 				0464835623D62A2F0007AA8A /* MutexDemo2.m in Sources */,
 				0464834D23D3EBC20007AA8A /* OSSPinLockDemo2.m in Sources */,

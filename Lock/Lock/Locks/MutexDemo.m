@@ -34,6 +34,7 @@
 
 }
 
+// 锁的初始化
 - (instancetype)init {
     if (self = [super init]) {
         [self __initMutex:&_ticketMutex];
@@ -42,25 +43,28 @@
     return self;
 }
 
+// 卖票代码加锁
 - (void)__saleTicket {
     pthread_mutex_lock(&_ticketMutex);
     [super __saleTicket];
     pthread_mutex_unlock(&_ticketMutex);
 }
 
+// 存钱代码加锁
 - (void)__saveMoney {
     pthread_mutex_lock(&_moneyMutex);
     [super __saveMoney];
     pthread_mutex_unlock(&_moneyMutex);
 }
 
+// 取钱代码加锁
 - (void)__drawMoney {
     pthread_mutex_lock(&_moneyMutex);
     [super __drawMoney];
     pthread_mutex_unlock(&_moneyMutex);
 }
 
-// mutex锁需要销毁
+// 锁需要销毁
 - (void)dealloc {
     pthread_mutex_destroy(&_moneyMutex);
     pthread_mutex_destroy(&_ticketMutex);

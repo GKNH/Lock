@@ -13,7 +13,7 @@
  使用递归锁
  */
 @interface MutexDemo3()
-@property (assign, nonatomic) pthread_mutex_t mutex;
+@property (nonatomic, assign) pthread_mutex_t mutex;
 @end
 
 @implementation MutexDemo3

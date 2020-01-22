@@ -9,8 +9,15 @@
 #import "MutexDemo2.h"
 #import <pthread.h>
 
+/**
+ A方法调用方法B, 在A解锁之前B再次加同一个锁，
+ 会导致死锁。B方法会一致占用线程，等待锁被解开
+ 解决方案：让 otherTest2 使用新的锁
+ */
 @interface MutexDemo2()
+// 锁1
 @property (assign, nonatomic) pthread_mutex_t mutex;
+// 锁2
 @property (assign, nonatomic) pthread_mutex_t mutex2;
 @end
 

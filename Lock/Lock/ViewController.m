@@ -14,6 +14,9 @@
 #import "MutexDemo.h"
 #import "MutexDemo2.h"
 #import "MutexDemo3.h"
+#import "MutexDemo4.h"
+#import "NSLockDemo.h"
+#import "NSConditionDemo.h"
 
 @interface ViewController ()
 @property (nonatomic, strong) SBaseDemo *demo;
@@ -24,9 +27,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    SBaseDemo *demo = [[MutexDemo3 alloc] init];
+    SBaseDemo *demo = [[NSConditionDemo alloc] init];
     [demo otherTest];
-//    [self.demo moneyTest];
     
 }
 
