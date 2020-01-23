@@ -24,6 +24,7 @@
 		0464835C23D7D8990007AA8A /* MutexDemo4.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464835B23D7D8990007AA8A /* MutexDemo4.m */; };
 		0464835F23D8019D0007AA8A /* NSLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464835E23D8019D0007AA8A /* NSLockDemo.m */; };
 		0464836223D85AEF0007AA8A /* NSConditionDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464836123D85AEF0007AA8A /* NSConditionDemo.m */; };
+		0464836523D9E7890007AA8A /* NSConditionLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464836423D9E7890007AA8A /* NSConditionLockDemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,8 @@
 		0464835E23D8019D0007AA8A /* NSLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSLockDemo.m; sourceTree = "<group>"; };
 		0464836023D85AEF0007AA8A /* NSConditionDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSConditionDemo.h; sourceTree = "<group>"; };
 		0464836123D85AEF0007AA8A /* NSConditionDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSConditionDemo.m; sourceTree = "<group>"; };
+		0464836323D9E7890007AA8A /* NSConditionLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSConditionLockDemo.h; sourceTree = "<group>"; };
+		0464836423D9E7890007AA8A /* NSConditionLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSConditionLockDemo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +133,8 @@
 				0464835E23D8019D0007AA8A /* NSLockDemo.m */,
 				0464836023D85AEF0007AA8A /* NSConditionDemo.h */,
 				0464836123D85AEF0007AA8A /* NSConditionDemo.m */,
+				0464836323D9E7890007AA8A /* NSConditionLockDemo.h */,
+				0464836423D9E7890007AA8A /* NSConditionLockDemo.m */,
 			);
 			path = Locks;
 			sourceTree = "<group>";
@@ -204,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0464836523D9E7890007AA8A /* NSConditionLockDemo.m in Sources */,
 				0464835F23D8019D0007AA8A /* NSLockDemo.m in Sources */,
 				0464836223D85AEF0007AA8A /* NSConditionDemo.m in Sources */,
 				0464833323D3E43E0007AA8A /* ViewController.m in Sources */,
