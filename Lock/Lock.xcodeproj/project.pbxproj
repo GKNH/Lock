@@ -25,6 +25,7 @@
 		0464835F23D8019D0007AA8A /* NSLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464835E23D8019D0007AA8A /* NSLockDemo.m */; };
 		0464836223D85AEF0007AA8A /* NSConditionDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464836123D85AEF0007AA8A /* NSConditionDemo.m */; };
 		0464836523D9E7890007AA8A /* NSConditionLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464836423D9E7890007AA8A /* NSConditionLockDemo.m */; };
+		0464836823D9F5700007AA8A /* SerialQueueDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464836723D9F5700007AA8A /* SerialQueueDemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,8 @@
 		0464836123D85AEF0007AA8A /* NSConditionDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSConditionDemo.m; sourceTree = "<group>"; };
 		0464836323D9E7890007AA8A /* NSConditionLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSConditionLockDemo.h; sourceTree = "<group>"; };
 		0464836423D9E7890007AA8A /* NSConditionLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSConditionLockDemo.m; sourceTree = "<group>"; };
+		0464836623D9F5700007AA8A /* SerialQueueDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SerialQueueDemo.h; sourceTree = "<group>"; };
+		0464836723D9F5700007AA8A /* SerialQueueDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SerialQueueDemo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +138,8 @@
 				0464836123D85AEF0007AA8A /* NSConditionDemo.m */,
 				0464836323D9E7890007AA8A /* NSConditionLockDemo.h */,
 				0464836423D9E7890007AA8A /* NSConditionLockDemo.m */,
+				0464836623D9F5700007AA8A /* SerialQueueDemo.h */,
+				0464836723D9F5700007AA8A /* SerialQueueDemo.m */,
 			);
 			path = Locks;
 			sourceTree = "<group>";
@@ -215,6 +220,7 @@
 				0464833323D3E43E0007AA8A /* ViewController.m in Sources */,
 				0464835923D643680007AA8A /* MutexDemo3.m in Sources */,
 				0464832D23D3E43E0007AA8A /* AppDelegate.m in Sources */,
+				0464836823D9F5700007AA8A /* SerialQueueDemo.m in Sources */,
 				0464835323D400BF0007AA8A /* MutexDemo.m in Sources */,
 				0464835023D3EC7B0007AA8A /* OSUnfairLockDemo.m in Sources */,
 				0464833E23D3E4400007AA8A /* main.m in Sources */,
