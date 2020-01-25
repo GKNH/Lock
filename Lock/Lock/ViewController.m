@@ -19,7 +19,8 @@
 #import "NSConditionDemo.h"
 #import "NSConditionLockDemo.h"
 #import "SerialQueueDemo.h"
-
+#import "SemaphoreDemo.h"
+#import "SynchronizedDemo.h"
 
 @interface ViewController ()
 @property (nonatomic, strong) SBaseDemo *demo;
@@ -30,9 +31,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    SBaseDemo *demo = [[SerialQueueDemo alloc] init];
+    SBaseDemo *demo = [[SynchronizedDemo alloc] init];
 //    [demo moneyTest];
     [demo ticketTest];
+//    [demo otherTest];
 }
 
 
